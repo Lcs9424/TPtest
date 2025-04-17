@@ -1,0 +1,148 @@
+apt install git 
+cd Documents
+mkdir yo
+cd yo 
+git init 
+ls  -a
+Réalisation 1er test :
+nano mobile.css
+body {
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+    color: red;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    margin: 0;
+}
+nav ul li a {
+    color: blue;
+    font-weight: bold;
+}
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: blueviolet;
+}
+git remote add origin https://github.com/Lcs9424/TPtest.git
+git config user.name “Lcs9424”
+git config user.email lucaschevassu94@gmail.com
+git add mobile.css
+git commit -m « fichier mobilev1.css »
+git pull  - -rebase origin master
+git push -u origin master
+
+
+
+Réalisation 2eme version:
+body {
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+    color: red;
+}
+footer {
+    background-color: bisque;
+    text-align: center;
+    padding: 15px;
+    bottom: 0;
+    width: 100%;
+}
+git remote add origin https://github.com/Lcs9424/TPtest.git
+git config user.name “Lcs9424”
+git config user.email lucaschevassu94@gmail.com
+git add mobile.css
+git commit -m « fichier mobilev2.css »
+git pull  - -rebase origin master
+git push -u origin master
+
+
+Réalisation 3eme version:
+body {
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+    color: red;
+}
+header {
+    background-color: aqua; 
+    padding: 10px;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    margin: 0;
+}
+nav ul li a {
+    color: blue;
+    font-weight: bold;
+}
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: blueviolet;
+}
+footer {
+    background-color: bisque;
+    text-align: center;
+    padding: 15px;
+    bottom: 0;
+    width: 100%;
+}
+git remote add origin https://github.com/Lcs9424/TPtest.git
+git config user.name “Lcs9424”
+git config user.email lucaschevassu94@gmail.com
+git add mobile.css
+git commit -m « fichier mobilevfinale.css »
+git pull  - -rebase origin master
+git push -u origin master
+Réalisation style.css
+body {
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+    color: red;
+}
+header {
+    background-color: aqua; 
+    padding: 10px;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul li {
+    margin: 0;
+}
+nav ul li a {
+    color: blue;
+    font-weight: bold;
+}
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: blueviolet;
+}
+footer {
+    background-color: bisque;
+    text-align: center;
+    padding: 15px;
+    bottom: 0;
+    width: 100%;
+}
+git remote add origin https://github.com/Lcs9424/TPtest.git
+git config user.name “Lcs9424”
+git config user.email lucaschevassu94@gmail.com
+git add mobile.css
+git commit -m « fichier style.css »
+git pull  - -rebase origin master
+git push -u origin master
