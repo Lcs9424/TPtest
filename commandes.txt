@@ -1,0 +1,12 @@
+Commandes Lucas Chevassu
+
+mkdir TPtest
+cd TPtest
+git init
+git remote add origin https://github.com/Lcs9424/TPtest.git
+git config user.name "Lcs9424"
+git config user.email "lucaschevassu94@gmail.com"
+nano test.txt
+git add test.txt
+git commit -m "premier commit test"
+git push -u origin master
