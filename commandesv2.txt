@@ -5,4 +5,3 @@ nano testbis.txt
 git add testbis.txt
 git commit -m "Commit test sur la branche test"
 git push -u origin test
-
