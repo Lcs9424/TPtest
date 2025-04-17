@@ -1,0 +1,27 @@
+Création du fichier de base :
+cd Documents/
+mkdir TPGIT
+cd TPGIT
+git init 
+
+
+Création de la connexion :
+git remote add origin https://github.com/Lcs9424/TPtest.git
+git config user.name "Lcs9424"
+git config user.email "lucaschevassu94@gmail.com"
+
+Création des trois pages html de notre site :
+nano index.html
+nano propos.html
+nano contact.html
+ASTRUCMLECZKO.txt 
+
+git add (les trois fichiers)
+git commit -m "Les différents commit des fichiers"
+git push -u origin master
+utilisateur + token du dépôt
+
+Ensuite j'ai eu différents messages d'erreur :
+J'ai fais une fusion merge classique pour essayer de relier les branches avec
+"git pull --rebase origin master"
+puis "git push -u origin master" et j'ai pu envoyer les pages html sur notre dépôt.
