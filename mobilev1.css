@@ -1,0 +1,23 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: yellow;
+	color: red;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+nav ul li {
+	margin: 0;
+}
+nav ul li a {
+	color: blue;
+	front-weignt: bold;
+}
+h1 {
+	text-align: center;
+	margin-top: 50px;
+	color: blueviolet;
+}
