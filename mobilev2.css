@@ -1,0 +1,17 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: yellow;
+	color: red;
+}
+header {
+	background-color: aqua;
+	padding: 10px;
+}
+footer {
+	background-color: bisque;
+	text-align: center;
+	padding: 15px;
+	bottom: 0;
+	width: 100%;
+}
